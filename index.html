@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Βιβλία Δημοτικού</title>
+    <!-- styles bulma and my own-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <!-- bulma scripts -->
+
+</head>
+
+<body>
+    <nav class="navbar is-primary has-text-centered" role="navigation" aria-label="main navigation">
+
+        <div class="navbar-brand">
+            <a class="navbar-item" href="./index.html" id="logo">
+                Βιβλία Δημοτικού
+            </a>
+
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="./index.html">Αρχική</a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Βιβλία</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="./professor-books.html">Βιβλία Καθηγητών</a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="./student-books.html">Βιβλία Μαθητών</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+            </div>
+            <div class="column is-three-fifths">
+                <h3 class="title is-3">Βιβλία Καθηγητών</h3>
+                <a href="./professor-books.html"><img src="./images/books2.jpg" alt=""></a>
+            </div>
+            <div class="column">
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column">
+            </div>
+            <div class="column is-three-fifths">
+                <h3 class="title is-3">Βιβλία Μαθητών</h3>
+                <a href="./student-books.html"><img src="./images/books1.jpg" alt=""></a>
+            </div>
+            <div class="column">
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Website</strong> by <a href="https://github.com/gsak3l" target="_blank">George Sakellariou</a>.
+                The source code is licensed <a href="http://opensource.org/licenses/mit-license.php"
+                    target="_blank">MIT</a>.
+                The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+                    target="_blank" 5>
+                    CC BY NC SA4.0</a>.
+                <br>
+                You can find the source code on my Github profile
+            </p>
+        </div>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

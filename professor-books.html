@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Βιβλία Δημοτικού</title>
+    <!-- importing bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <!-- my own css -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- bulma scripts -->
+
+</head>
+
+<body>
+
+    <!-- navigation bar starts -->
+    <nav class="navbar is-primary has-text-centered" role="navigation" aria-label="main navigation">
+
+        <div class="navbar-brand">
+            <a class="navbar-item" href="./index.html" id="logo">
+                Βιβλία Δημοτικού
+            </a>
+
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="./index.html">Αρχική</a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Βιβλία</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="./professor-books.html">Βιβλία Καθηγητών</a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="./student-books.html">Βιβλία Μαθητών</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <!-- navigation bar ends -->
+
+
+    <!-- content begins for the first three grades -->
+    <div class="columns" style="margin-top: 10px;">
+
+        <!-- first grade starts -->
+        <div class="column is-one-third">
+            <h2 class="title is-3">Α' Δημοτικού</h2>
+            <div class="content">
+                <ul onclick="openPage(event.target.id)">
+                    <li id="8wYZj3G">Γλώσσα, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="p04Tyj2">Μαθηματικά, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="nw1JWjb">Μελέτη Περιβάλλοντος, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="RSUbUFc">Αγγλικά, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="hdTyBTp">Ανθολόγιο Λογοτεχνικών Κειμένων, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="Vq738Sq">Φυσική Αγωγή, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="sgKjInj">Περιβαλλοντική Εκπαίδευση, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="O0rayTe">Σχολικές και Πολιτισμικές Εκδηλώσεις, Βιβλίο
+                        Εκπαιδευτικού</li>
+                </ul>
+            </div>
+        </div>
+        <!-- first grade ends -->
+        <!-- second grade starts -->
+        <div class="column is-one-third">
+            <h2 class="title is-3">Β' Δημοτικού</h2>
+            <div class="content">
+                <ul onclick="openPage(event.target.id)">
+                    <li id="PHyoPLM">Γλώσσα, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="94FJvDp">Μαθηματικά, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="7Vr2uyX">Μελέτη Περιβάλλοντος, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="tFzg2Tj">Αγγλικά, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="Tkgk7PJ">Ανθολόγιο Λογοτεχνικών Κειμένων, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="EuKsTJj">Φυσική Αγωγή, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="DnwMcN3">Περιβαλλοντική Εκπαίδευση, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="Nt06lTs">Σχολικές και Πολιτισμικές Εκδηλώσεις, Βιβλίο
+                        Εκπαιδευτικού</li>
+                </ul>
+            </div>
+        </div>
+        <!-- second grade ends -->
+        <!-- third grade starts -->
+        <div class="column is-one-third">
+            <h2 class="title is-3">Γ' Δημοτικού</h2>
+            <div class="content">
+                <ul onclick="openPage(event.target.id)">
+                    <li id="fZtTFUm">Γλώσσα, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="WrbbGDF">Μαθηματικά, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="oQsNhdK">Ιστορία, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="IPdoC6d">Μελέτη Περιβάλλοντος, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="0x7WCmZ">Αγγλικά, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="lJSEXt4">Ανθολόγιο Λογοτεχνικών Κειμένων, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="RJgUEdO">Φυσική Αγωγή, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="8OEzG5J">Περιβαλλοντική Εκπαίδευση, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="t3Xx3KJ">Σχολικές και Πολιτισμικές Εκδηλώσεις, Βιβλίο
+                        Εκπαιδευτικού</li>
+                </ul>
+            </div>
+        </div>
+        <!-- third grade ends -->
+    </div>
+    <!-- content ends for the first three grades -->
+
+    <!-- content begins for the second three grades -->
+    <div class="columns" style="margin-top: 10px;">
+
+        <!-- fourth grade starts -->
+        <div class="column is-one-third">
+            <h2 class="title is-3">Δ' Δημοτικού</h2>
+            <div class="content">
+                <ul onclick="openPage(event.target.id)">
+                    <li id="fE9gBmh">Γλώσσα, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="21chPHg">Μαθηματικά, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="BeCPG9U">Ιστορία, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="qDRGlrJ">Θεματικός Φάκελος Ιστορίας, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="DCXTdM1">Μελέτη Περιβάλλοντος, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="4ejrlyr">Αγγλικά, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="fIjBpLa">Ανθολόγιο Λογοτεχνικών Κειμένων, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="DePhS9o">Φυσική Αγωγή, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="66myVqf">Περιβαλλοντική Εκπαίδευση, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="PTYZfcl">Σχολικές και Πολιτισμικές Εκδηλώσεις, Βιβλίο
+                        Εκπαιδευτικού</li>
+                </ul>
+            </div>
+        </div>
+        <!-- fourth grade ends -->
+        <!-- fifth grade starts -->
+        <div class="column is-one-third">
+            <h2 class="title is-3">Ε' Δημοτικού</h2>
+            <div class="content">
+                <ul onclick="openPage(event.target.id)">
+                    <li id="9SJm6Jm">Γλώσσα, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="jDWYm2D">Μαθηματικά, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="Lx5O6Zf">Ιστορία, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="ndqEe6U">Φυσική, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="edWPI4p">Γεωγραφία, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="EovmQ8B">Κοινωνική και Πολιτική Αγωγή, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="6XIklLS">Θεματικός Φάκελος Ιστορίας, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="MVLCgG5">Αγγλικά, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="Uyy8pKk">Ανθολόγιο Λογοτεχνικών Κειμένων, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="n3qR0lB">Φυσική Αγωγή, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="iR3cbTJ">Περιβαλλοντική Εκπαίδευση, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="uYihC2O">Σχολικές και Πολιτισμικές Εκδηλώσεις, Βιβλίο
+                        Εκπαιδευτικού</li>
+                </ul>
+            </div>
+        </div>
+        <!-- fifth grade ends -->
+        <!-- sixth grade starts -->
+        <div class="column is-one-third">
+            <h2 class="title is-3">ΣΤ' Δημοτικού</h2>
+            <div class="content">
+                <ul onclick="openPage(event.target.id)">
+                    <li id="aKkeJHp">Γλώσσα, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="IVRPn0r">Μαθηματικά, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="1VDDhaR">Ιστορία, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="RyDj0EQ">Φυσική, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="Cn0u8Io">Γεωγραφία, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="kqayHD6">Κοινωνική και Πολιτική Αγωγή, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="GfVUTsN">Θεματικός Φάκελος Ιστορίας, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="SrBBczO">Αγγλικά, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="EPydEbB">Ανθολόγιο Λογοτεχνικών Κειμένων, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="mdadasO">Φυσική Αγωγή, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="vXfUcRR">Περιβαλλοντική Εκπαίδευση, Βιβλίο Εκπαιδευτικού</li>
+                    <li id="VGcYuy9">Σχολικές και Πολιτισμικές Εκδηλώσεις, Βιβλίο
+                        Εκπαιδευτικού</li>
+                </ul>
+            </div>
+        </div>
+        <!-- sixth grade ends -->
+    </div>
+    <!-- content ends for the second three grades -->
+
+
+    <!-- frame for the pdf's begins-->
+    <div class="columns">
+        <div class="column"></div>
+        <div class="column is-two-thirds" id="frame">
+        </div>
+        <div class="column"></div>
+    </div>
+    <!-- frame for the pdf's ends -->
+
+    <!-- content ends -->
+
+
+    <!-- footer starts -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Website</strong> by <a href="https://github.com/gsak3l" target="_blank">George Sakellariou</a>.
+                The source code is licensed <a href="http://opensource.org/licenses/mit-license.php"
+                    target="_blank">MIT</a>.
+                The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+                    target="_blank" 5>
+                    CC BY NC SA4.0</a>.
+                <br>
+                You can find the source code on my Github profile
+            </p>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+#logo {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.navbar-menu {
+    margin-right: 140px;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+img {
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.columns {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none !important;
+    font-weight: 550;
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    color: #00d1b2;
+}
+
+.title.is-3 {
+    margin-top: 10px;
+    margin-left: 20px;
+}

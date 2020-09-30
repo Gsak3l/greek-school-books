@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Βιβλία Δημοτικού</title>
+    <!-- importing bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <!-- my own css -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- bulma scripts -->
+
+</head>
+
+<body>
+
+    <!-- navigation bar starts -->
+    <nav class="navbar is-primary has-text-centered" role="navigation" aria-label="main navigation">
+
+        <div class="navbar-brand">
+            <a class="navbar-item" href="./index.html" id="logo">
+                Βιβλία Δημοτικού
+            </a>
+
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="./index.html">Αρχική</a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Βιβλία</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="./professor-books.html">Βιβλία Καθηγητών</a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="./student-books.html">Βιβλία Μαθητών</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <!-- navigation bar ends -->
+
+
+    <!-- content begins for the first three grades -->
+    <div class="columns" style="margin-top: 10px;">
+
+        <!-- first grade starts -->
+        <div class="column is-one-third">
+            <h2 class="title is-3">Α' Δημοτικού</h2>
+            <div class="content">
+                <ul onclick="openPage(event.target.id)">
+                    <li id="UgEqYxm">Γλώσσα, Βιβλίο Μαθητή 1</li>
+                    <li id="l6Fuf1V">Γλώσσα, Βιβλίο Μαθητή 2</li> 
+                    <li id="OwTK8Jw">Γλώσσα, Τετράδιο Εργασιών 1</li>
+                    <li id="9Llp8PI">Γλώσσα, Τετράδιο Εργασιών 2</li>
+                    <li id="EKHSfOW">Μαθηματικά, Βιβλίο Μαθητή 1</li>
+                    <li id="RUA82O0">Μαθηματικά, Βιβλίο Μαθητή 2</li>
+                    <li id="UTC4DFQ">Μαθηματικά, Τετράδιο Εργασιών 1</li>
+                    <li id="K58ENMI">Μαθηματικά, Τετράδιο Εργασιών 2</li>
+                    <li id="DV5XZMG">Μαθηματικά, Τετράδιο Εργασιών 3</li>
+                    <li id="SsHZCO7">Μαθηματικά, Τετράδιο Εργασιών 4</li>
+                    <li id="qJUuAXq">Μελέτη Περιβάλλοντος, Βιβλίο Μαθητή</li>
+                    <li id="aIeRioF">Μελέτη Περιβάλλοντος, Τετράδιο Εργασιών</li>
+                    <li id="a15iZIw">Αγγλικά, Βιβλίο Μαθητή</li>
+                    <li id="v4ZW6Za">Ανθολόγιο, Βιβλίο Μαθητή</li>
+                    <li id="oqgAJGb">Μουσική, Βιβλίο Μαθητή</li>
+                    <li id="bETu3ix">Μουσική, Τετράδιο Εργασιών</li>
+                    <li id="6dGb17W">Φυσική Αγωγή, Τετράδιο Μαθητή</li>
+                    <li id="qE32qCu">Εικονογραφημένο Λεξικό, Βιβλίο Μαθητή</li>
+                    <li id="V6xJomn">Εικαστικά, Βιβλίο Μαθητή</li>
+                    <li id="QfBpovY">Εικαστικά, Τετράδιο Εργασιών</li>
+                </ul>
+            </div>
+        </div>
+        <!-- first grade ends -->
+        <!-- second grade starts -->
+        <div class="column is-one-third">
+            <h2 class="title is-3">Β' Δημοτικού</h2>
+            <div class="content">
+                <ul onclick="openPage(event.target.id)">
+                    <li id="zmieawd">Γλώσσα, Βιβλίο Μαθητή 1</li>
+                    <li id="ZhsYEbS">Γλώσσα, Βιβλίο Μαθητή 2</li> 
+                    <li id="RvTrVI3">Γλώσσα, Βιβλίο Μαθητή 3</li> 
+                    <li id="ti3N0oy">Γλώσσα, Τετράδιο Εργασιών 1</li>
+                    <li id="5IlABwc">Γλώσσα, Τετράδιο Εργασιών 2</li>
+                    <li id="dG3XbJo">Μαθηματικά, Βιβλίο Μαθητή 1</li>
+                    <li id="bt6Oiam">Μαθηματικά, Βιβλίο Μαθητή 2</li>
+                    <li id="M8hR46V">Μαθηματικά, Τετράδιο Εργασιών 1</li>
+                    <li id="qiEpiCF">Μαθηματικά, Τετράδιο Εργασιών 2</li>
+                    <li id="p7islaz">Μαθηματικά, Τετράδιο Εργασιών 3</li>
+                    <li id="pG1rPbo">Μαθηματικά, Τετράδιο Εργασιών 4</li>
+                    <li id="IsoJ2Nf">Μελέτη Περιβάλλοντος, Βιβλίο Μαθητή</li>
+                    <li id="EX7DYE1">Μελέτη Περιβάλλοντος, Τετράδιο Εργασιών</li>
+                    <li id="7Wpwhis">Αγγλικά, Βιβλίο Μαθητή</li>
+                    <li id="1FuHy8h">Ανθολόγιο, Βιβλίο Μαθητή</li>
+                    <li id="wqsWUkX">Μουσική, Βιβλίο Μαθητή</li>
+                    <li id="D4f6R21">Μουσική, Τετράδιο Εργασιών</li>
+                    <li id="PVu4ake">Φυσική Αγωγή, Τετράδιο Μαθητή</li>
+                    <li id="vcpcjnr">Εικονογραφημένο Λεξικό, Βιβλίο Μαθητή</li>
+                    <li id="AP4Fckc">Εικαστικά, Βιβλίο Μαθητή</li>
+                    <li id="ZIV17KQ">Εικαστικά, Τετράδιο Εργασιών</li>
+                </ul>
+            </div>
+        </div>
+        <!-- second grade ends -->
+        <!-- third grade starts -->
+        <div class="column is-one-third">
+            <h2 class="title is-3">Γ' Δημοτικού</h2>
+            <div class="content">
+                <ul onclick="openPage(event.target.id)">
+                    <li id="CT1oRkQ">Γλώσσα, Βιβλίο Μαθητή 1</li>
+                    <li id="hNeBuAZ">Γλώσσα, Βιβλίο Μαθητή 2</li> 
+                    <li id="74L0VNJ">Γλώσσα, Βιβλίο Μαθητή 3</li> 
+                    <li id="WboyEHT">Γλώσσα, Τετράδιο Εργασιών 1</li>
+                    <li id="ZRpcp8I">Γλώσσα, Τετράδιο Εργασιών 2</li>
+                    <li id="nE82HGP">Μαθηματικά, Βιβλίο Μαθητή</li>
+                    <li id="BU7WgoD">Μαθηματικά, Τετράδιο Εργασιών 1</li>
+                    <li id="dCAkhyK">Μαθηματικά, Τετράδιο Εργασιών 2</li>
+                    <li id="j0UoH1e">Μαθηματικά, Τετράδιο Εργασιών 3</li>
+                    <li id="ok7irhV">Μαθηματικά, Τετράδιο Εργασιών 4</li>
+                    <li id="mY0qntb">Ιστορία, Βιβλίο Μαθητή</li>
+                    <li id="foqb0rI">Ιστορία, Τετράδιο Εργασιών</li>
+                    <li id="UXGmmGG">Θρησκευτικά, Βιβλίο Μαθητή</li>
+                    <li id="ibZF9Gh">Μελέτη Περιβάλλοντος, Βιβλίο Μαθητή</li>
+                    <li id="cO4MOUI">Μελέτη Περιβάλλοντος, Τετράδιο Εργασιών</li>
+                    <li id="Lo1wm0E">Αγγλικά, Βιβλίο Μαθητή</li>
+                    <li id="SHI4OHr">Αγγλικά, Τετράδιο Εργασιών</li>
+                    <li id="VCVWwRV">Ανθολόγιο, Βιβλίο Μαθητή</li>
+                    <li id="QXR9gUp">Μουσική, Βιβλίο Μαθητή</li>
+                    <li id="VwBZ19q">Μουσική, Τετράδιο Εργασιών</li>
+                    <li id="KaWuC5R">Φυσική Αγωγή, Τετράδιο Μαθητή</li>
+                    <li id="Ei04yGl">Εικονογραφημένο Λεξικό, Βιβλίο Μαθητή</li>
+                    <li id="P0xy1k7">Εικαστικά, Βιβλίο Μαθητή</li>
+                    <li id="jV2Ld9L">Εικαστικά, Τετράδιο Εργασιών</li>
+                </ul>
+            </div>
+        </div>
+        <!-- third grade ends -->
+    </div>
+    <!-- content ends for the first three grades -->
+
+    <!-- content begins for the second three grades -->
+    <div class="columns" style="margin-top: 10px;">
+
+        <!-- fourth grade starts -->
+        <div class="column is-one-third">
+            <h2 class="title is-3">Δ' Δημοτικού</h2>
+            <div class="content">
+                <ul onclick="openPage(event.target.id)">
+                    <li id="6IDdAja">Γλώσσα, Βιβλίο Μαθητή 1</li>
+                    <li id="pTxq6Za">Γλώσσα, Βιβλίο Μαθητή 2</li> 
+                    <li id="Mqf7d07">Γλώσσα, Βιβλίο Μαθητή 3</li> 
+                    <li id="mQ9vJNc">Γλώσσα, Τετράδιο Εργασιών 1</li>
+                    <li id="FFx4KU2">Γλώσσα, Τετράδιο Εργασιών 2</li>
+                    <li id="EtqGb6U">Μαθηματικά, Βιβλίο Μαθητή</li>
+                    <li id="kFCq5J3">Μαθηματικά, Τετράδιο Εργασιών 1</li>
+                    <li id="R6vEacu">Μαθηματικά, Τετράδιο Εργασιών 2</li>
+                    <li id="yK4OzeB">Μαθηματικά, Τετράδιο Εργασιών 3</li>
+                    <li id="sgHenfx">Μαθηματικά, Τετράδιο Εργασιών 4</li>
+                    <li id="HDpRndb">Ιστορία, Βιβλίο Μαθητή</li>
+                    <li id="54Apc7V">Ιστορία, Τετράδιο Εργασιών</li>
+                    <li id="t1R5Bkj">Θρησκευτικά, Βιβλίο Μαθητή</li>
+                    <li id="rkP1InL">Μελέτη Περιβάλλοντος, Βιβλίο Μαθητή</li>
+                    <li id="N2i0GxU">Μελέτη Περιβάλλοντος, Τετράδιο Εργασιών</li>
+                    <li id="7OfDEwK">Αγγλικά, Βιβλίο Μαθητή</li>
+                    <li id="uezqXYz">Αγγλικά, Τετράδιο Εργασιών</li>
+                    <li id="64z2Q7b">Ανθολόγιο, Βιβλίο Μαθητή</li>
+                    <li id="my0XkKa">Μουσική, Βιβλίο Μαθητή</li>
+                    <li id="jyJAd5r">Μουσική, Τετράδιο Εργασιών</li>
+                    <li id="hFYn5bU">Φυσική Αγωγή, Τετράδιο Μαθητή</li>
+                    <li id="WEGM7wu">Ορθογραφικό και Ερμηνευτικό Λεξικό</li>
+                    <li id="tHtysem">Εικαστικά, Βιβλίο Μαθητή</li>
+                    <li id="3FfEljN">Εικαστικά, Τετράδιο Εργασιών</li>
+                </ul>
+            </div>
+        </div>
+        <!-- fourth grade ends -->
+        <!-- fifth grade starts -->
+        <div class="column is-one-third">
+            <h2 class="title is-3">Ε' Δημοτικού</h2>
+            <div class="content">
+                <ul onclick="openPage(event.target.id)">
+                    <li id="833zKIE">Γλώσσα, Βιβλίο Μαθητή 1</li>
+                    <li id="NiD0Kce">Γλώσσα, Βιβλίο Μαθητή 2</li> 
+                    <li id="IBQYoAI">Γλώσσα, Βιβλίο Μαθητή 3</li> 
+                    <li id="duAPwd7">Γλώσσα, Τετράδιο Εργασιών 1</li>
+                    <li id="Su7zojW">Γλώσσα, Τετράδιο Εργασιών 2</li>
+                    <li id="xNSRfG0">Μαθηματικά, Βιβλίο Μαθητή 1</li>
+                    <li id="7FxK8dx">Μαθηματικά, Βιβλίο Μαθητή 2</li>
+                    <li id="wKrBDWC">Μαθηματικά, Τετράδιο Εργασιών 1</li>
+                    <li id="PBsroLj">Μαθηματικά, Τετράδιο Εργασιών 2</li>
+                    <li id="jzv1ska">Ιστορία, Βιβλίο Μαθητή</li>
+                    <li id="u0T22iR">Ιστορία, Τετράδιο Εργασιών</li>
+                    <li id="50roZyW">Γεωγραφία, Βιβλίο Μαθητή</li>
+                    <li id="frfrwl6">Γεωγραφία, Τετράδιο Εργασιών</li>
+                    <li id="aYq8Kdw">Φυσική, Βιβλίο Μαθητή</li>
+                    <li id="GSmllpv">Φυσική, Τετράδιο Εργασιών</li>
+                    <li id="eqOj6NH">Θρησκευτικά, Βιβλίο Μαθητή</li>
+                    <li id="qefF4m0">Κοινωνική και Πολιτική Αγωγή, Βιβλίο Μαθητή</li>
+                    <li id="9D30mk3">Αγγλικά, Βιβλίο Μαθητή</li>
+                    <li id="AtLwyVg">Αγγλικά, Τετράδιο Εργασιών</li>
+                    <li id="GQPQMlB">Ανθολόγιο, Βιβλίο Μαθητή</li>
+                    <li id="CF5Vt0g">Γραμματική, Βιβλίο Μαθητή</li>
+                    <li id="zA43TCI">Μουσική, Βιβλίο Μαθητή</li>
+                    <li id="89Q87hh">Μουσική, Τετράδιο Εργασιών</li>
+                    <li id="HxlqNsJ">Φυσική Αγωγή, Τετράδιο Μαθητή</li>
+                    <li id="DwQr0bG">Ορθογραφικό και Ερμηνευτικό Λεξικό</li>
+                    <li id="mlU0ced">Εικαστικά, Βιβλίο Μαθητή</li>
+                    <li id="0QBORWQ">Εικαστικά, Τετράδιο Εργασιών</li>
+                    <li id="omc6qcT">Θεατρική Αγωγή, Βιβλίο Μαθητή</li>
+                </ul>
+            </div>
+        </div>
+        <!-- fifth grade ends -->
+        <!-- sixth grade starts -->
+        <div class="column is-one-third">
+            <h2 class="title is-3">ΣΤ' Δημοτικού</h2>
+            <div class="content">
+                <ul onclick="openPage(event.target.id)">
+                    <li id="paEqmDh">Γλώσσα, Βιβλίο Μαθητή 1</li>
+                    <li id="kjq8Bro">Γλώσσα, Βιβλίο Μαθητή 2</li> 
+                    <li id="yRTNgg3">Γλώσσα, Βιβλίο Μαθητή 3</li> 
+                    <li id="vQuRSIc">Γλώσσα, Τετράδιο Εργασιών 1</li>
+                    <li id="wMXkoRX">Γλώσσα, Τετράδιο Εργασιών 2</li>
+                    <li id="OmVcvya">Μαθηματικά, Βιβλίο Μαθητή</li>
+                    <li id="oByrzlW">Μαθηματικά, Τετράδιο Εργασιών 1</li>
+                    <li id="xe1smcY">Μαθηματικά, Τετράδιο Εργασιών 2</li>
+                    <li id="D3ZyEhH">Μαθηματικά, Τετράδιο Εργασιών 3</li>
+                    <li id="AAL326s">Μαθηματικά, Τετράδιο Εργασιών 4</li>
+                    <li id="nhM5gmf">Ιστορία, Βιβλίο Μαθητή</li>
+                    <li id="BjWSu63">Ιστορία, Τετράδιο Εργασιών</li>
+                    <li id="vciyPib">Γεωγραφία, Βιβλίο Μαθητή</li>
+                    <li id="T3gqz1w">Γεωγραφία, Τετράδιο Εργασιών</li>
+                    <li id="uVBehc6">Φυσική, Βιβλίο Μαθητή</li>
+                    <li id="QMZVLR3">Φυσική, Τετράδιο Εργασιών</li>
+                    <li id="4DfiwEo">Θρησκευτικά, Βιβλίο Μαθητή</li>
+                    <li id="r3NdTd3">Κοινωνική και Πολιτική Αγωγή, Βιβλίο Μαθητή</li>
+                    <li id="5ijPsed">Αγγλικά, Βιβλίο Μαθητή</li>
+                    <li id="tZ6KUHX">Αγγλικά, Τετράδιο Εργασιών</li>
+                    <li id="KCxOTsr">Ανθολόγιο, Βιβλίο Μαθητή</li>
+                    <li id="SQ6gqHj">Γραμματική, Βιβλίο Μαθητή</li>
+                    <li id="tbidCQb">Μουσική, Βιβλίο Μαθητή</li>
+                    <li id="KD9DlnX">Μουσική, Τετράδιο Εργασιών</li>
+                    <li id="UiYu9RJ">Φυσική Αγωγή, Τετράδιο Μαθητή</li>
+                    <li id="rkf291p">Ορθογραφικό και Ερμηνευτικό Λεξικό</li>
+                    <li id="WoYrpFM">Εικαστικά, Βιβλίο Μαθητή</li>
+                    <li id="CfQGSKB">Εικαστικά, Τετράδιο Εργασιών</li>
+                    <li id="ZF07J8p">Θεατρική Αγωγή, Βιβλίο Μαθητή</li>
+                </ul>
+            </div>
+        </div>
+        <!-- sixth grade ends -->
+    </div>
+    <!-- content ends for the second three grades -->
+
+
+    <!-- frame for the pdf's begins-->
+    <div class="columns">
+        <div class="column"></div>
+        <div class="column is-two-thirds" id="frame">
+        </div>
+        <div class="column"></div>
+    </div>
+    <!-- frame for the pdf's ends -->
+
+    <!-- content ends -->
+
+
+    <!-- footer starts -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Website</strong> by <a href="https://github.com/gsak3l" target="_blank">George Sakellariou</a>.
+                The source code is licensed <a href="http://opensource.org/licenses/mit-license.php"
+                    target="_blank">MIT</a>.
+                The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+                    target="_blank" 5>
+                    CC BY NC SA4.0</a>.
+                <br>
+                You can find the source code on my Github profile
+            </p>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
